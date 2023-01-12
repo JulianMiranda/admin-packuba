@@ -155,6 +155,10 @@ const prices = async (resource, data, previousData) => {
 	if (data.sevenkgPrice !== previousData.sevenkgPrice) {
 		object.sevenkgPrice = data.sevenkgPrice;
 	}
+
+	if (data.eightkgPrice !== previousData.eightkgPrice) {
+		object.eightkgPrice = data.eightkgPrice;
+	}
 	if (data.eigthkgPrice !== previousData.eigthkgPrice) {
 		object.eigthkgPrice = data.eigthkgPrice;
 	}

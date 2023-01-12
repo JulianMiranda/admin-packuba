@@ -2,7 +2,9 @@ import {getToken, getHeaders} from '../util/api';
 import {fetchUtils} from 'react-admin';
 
 /* const apiUrl = 'https://web-production-0643.up.railway.app/api'; */
-const apiUrl = 'http://localhost:5001/api';
+/* const apiUrl = 'http://localhost:5001/api'; */
+
+const apiUrl = 'https://bariaencargaadmin.com/api';
 //const apiUrl = 'https://admin-firebase-backend.herokuapp.com/api';
 const mapboxToken =
 	'pk.eyJ1IjoiZWFxdWluZSIsImEiOiJjazM5M2pja24wYmY3M21tbWs0OXg3bWFlIn0.mOFlxf0gjpIXVHTFUyD_7A';

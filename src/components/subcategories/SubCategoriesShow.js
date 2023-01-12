@@ -303,6 +303,20 @@ const SubCategoriesShow = (props) => {
 											))}
 										</Typography>
 									</Grid>
+
+									<Grid item xs={6}>
+										<div className={classes.Space}>&nbsp;</div>
+
+										<Typography variant="h5" gutterBottom align="center">
+											Descripción: <br />
+											{record.description.map((desc, index) => (
+												<div>
+													{' '}
+													{desc.title} - {desc.content}
+												</div>
+											))}
+										</Typography>
+									</Grid>
 								</Grid>
 							</Grid>
 						</Grid>
