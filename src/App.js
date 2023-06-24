@@ -14,6 +14,7 @@ import Orders from './components/orders';
 import Promotions from './components/promotions';
 import PromotionsFinal from './components/promotionsFinal';
 import Prices from './components/prices';
+import Payment from './components/payment';
 
 import themeReducer from './themeReducer';
 import customRoutes from './routes';
@@ -48,6 +49,11 @@ const App = (props) => {
 						{...SubCategories}
 					/>,
 					<Resource options={{label: 'Usuarios'}} name="users" {...Users} />,
+					<Resource
+						options={{label: 'Payment'}}
+						name="payments"
+						{...Payment}
+					/>,
 					<Resource options={{label: 'Ordenes'}} name="orders" {...Orders} />,
 					<Resource
 						options={{label: 'Promociones'}}

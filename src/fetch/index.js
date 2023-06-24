@@ -2,7 +2,7 @@ import {getToken, getHeaders} from '../util/api';
 import {fetchUtils} from 'react-admin';
 
 /* const apiUrl = 'https://web-production-0643.up.railway.app/api'; */
-/* const apiUrl = 'http://localhost:5001/api'; */
+/* const apiUrl = 'http://localhost:3000/api'; */
 
 const apiUrl = 'https://bariaencargaadmin.com/api';
 //const apiUrl = 'https://admin-firebase-backend.herokuapp.com/api';

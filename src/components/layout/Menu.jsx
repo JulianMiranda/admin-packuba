@@ -13,6 +13,7 @@ import promotions from '../promotions';
 import carnets from '../carnets';
 import promotionsFinal from '../promotionsFinal';
 import Prices from '../prices';
+import Payment from '../payment';
 
 const Menu = ({onMenuClick, dense, logout}) => {
 	const [state, setState] = useState({
@@ -123,6 +124,14 @@ const Menu = ({onMenuClick, dense, logout}) => {
 				to={`/prices`}
 				primaryText="Precios"
 				leftIcon={<Prices.icon />}
+				onClick={onMenuClick}
+				sidebarIsOpen={open}
+				dense={dense}
+			/>
+			<MenuItemLink
+				to={`/payments`}
+				primaryText="Pago"
+				leftIcon={<Payment.icon />}
 				onClick={onMenuClick}
 				sidebarIsOpen={open}
 				dense={dense}
