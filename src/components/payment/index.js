@@ -1,4 +1,4 @@
-import BusinessIcon from '@material-ui/icons/Business';
+import BusinessIcon from '@material-ui/icons/Payment';
 import Payment from './Payment';
 export default {
 	list: Payment,
